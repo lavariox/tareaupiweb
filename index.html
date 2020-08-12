@@ -1,0 +1,167 @@
+<html>
+  <head>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #444;
+      }
+
+      body {
+        background-image: url('img/bg.png');
+        background-repeat: repeat-x;
+      }
+
+
+      div.video iframe {
+        width: 100%;
+        height: 100%;
+      }
+
+      div.video {
+        width: 372px;
+        height: 240px;
+      }
+
+      div.desc:hover {
+        color: #222;
+      }
+
+      div.main_content {
+        margin: auto;
+        align-content: center;
+        max-width: 800;
+      }
+
+      .grid-container {
+        display: grid;
+        background: rgba(0, 0, 0, 0.5);
+        grid-auto-flow: column;
+        grid-gap: 15px 15px;
+        padding: 15px;
+      }
+      .grid-item {
+        border: 1px solid #ccc;
+        min-width: 180px;
+        height: auto;
+      }
+      
+      .grid-item img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .grid-item:hover {
+        border: 1px solid #777;
+      }
+      
+      div.desc {
+        padding: 10px;
+        height: 32px;
+        text-align: center;
+        color: #777;
+        background-color: white;
+      }
+
+      .textblock {
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        font-size: 22;
+        text-align: center;
+      }
+      .titleblock {
+        color: white;
+        padding: 10px;
+        font-size: 22;
+        text-align: center;
+      }
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #111;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: #d1daba;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        padding: 15px;
+      }
+
+      .spacer {
+        margin: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img src="img/logo.png" alt="Conect@Plus" width="250" height="56"/>
+    </div>
+    <div class="spacer" />
+    <div class="main_content">
+      <div class="grid-container">
+        
+  
+        <div class="grid-item">
+          <a target="_blank" href="img/publicidad1.jpeg">
+            <img src="img/publicidad1.jpeg" alt="Sanitol">
+          </a>
+          <div class="desc">Desinfectante multiusos Sanitol</div>
+        </div>
+        
+        <div class="grid-item">
+          <a target="_blank" href="img/publicidad2.jpeg">
+            <img src="img/publicidad2.jpeg" alt="Hospital grade">
+          </a>
+          <div class="desc">Desinfectante grado hospitalario BIO</div>
+        </div>
+        
+        <div class="grid-item">
+          <a target="_blank" href="img/publicidad3.png">
+            <img src="img/publicidad3.png" alt="Bomba 3L">
+          </a>
+          <div class="desc">Bomba aspersora de 3 Litros</div>
+        </div>
+        
+        <div class="grid-item">
+          <a target="_blank" href="img/publicidad4.png">
+            <img src="img/publicidad4.png" alt="Spray">
+          </a>
+          <div class="desc">Botella con boquilla rociadora</div>
+        </div>
+        
+      </div>
+      <p class="textblock">
+        Productos de bioseguridad para protegerlo a usted y a su familia.
+      </p>
+      <div class="grid-container">
+
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/Sl16yJIyBSU">
+          </iframe>
+        </div>
+          
+        <div class="video">     
+          <iframe src="https://www.youtube.com/embed/QYVNK_Mt1Pw">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Plaza Inmaculada Concepción, 6ta avenida, entre 12 y 13 calle, local 6, Comayagüela</p>
+      <p>admin@conectahn.com</p>
+      <p>+504 9644-4876</p>
+    </div>
+  </body>
+</html>
